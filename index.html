@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home:Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap3.min.css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="color.css">
+  <link rel="stylesheet" href="font-awesome.min4.css" media="all">
+  <link rel="stylesheet" type="text/css" href="style.css" media="all">
+  <link rel="stylesheet" type="text/css" href="font-awesome.min.css" media="all">
+  <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="style2.css" rel="stylesheet" type="text/css" media="all" >
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+   
+<span>
+<div class="head">
+<div class="slideshow-container ">
+ <nav class="navbar navbar-expand-md navbar-dark navback" style="position: absolute;">
+  <img src="logo.jpg" alt="logo" style="width: 200px; height: 70px;"> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav menubar">
+      <li class="nav-item" >
+        <a class="nav-link active " href="index.html" style="padding-right: 15px;padding-left: 15px; font-family:Poppins-Regular;
+    color: #FF5B9F;" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html" style="padding-right: 15px;
+    color: #FF5B9F;padding-left: 15px; font-family: Poppins-Regular;">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="service.html"  style="padding-right: 15px;
+    color: #FF5B9F;padding-left: 15px; font-family: Poppins-Regular;">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" style="padding-right: 15px;padding-left: 15px; font-family: Poppins-Regular;
+    color: #FF5B9F;">Contact Us</a>
+      </li>    
+    </ul>
+  </div>  
+</nav> 
+<div class="mySlides">
+  <img src="23.jpg" >
+  <div class="text">#Stage</div>
+</div>
+
+<div class="mySlides">
+  <img src="12.jpg" >
+  <div class="text">#Pandal</div>
+</div>
+
+<div class="mySlides">
+  <img src="20.jpg" >
+  <div class="text">#Ballon</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script type="text/javascript">
+ var slideIndex = 0;
+  var slides = document.getElementsByClassName("mySlides");
+
+showSlides();
+
+function showSlides() {    
+    var i;    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 10000); // Change image every 5 seconds
+}
+
+function currentSlide(no) {
+    var i;    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex = no;
+    slides[no-1].style.display = "block";
+}
+
+function plusSlides(n) {
+  var newslideIndex = slideIndex + n;
+  if(newslideIndex < 4 && newslideIndex > 0){
+     currentSlide(newslideIndex);
+  }
+}
+
+</script>
+</div>
+</span>
+<div class="container-fluid container1">
+<div class="row">
+<div class="col-md-6">
+  <h3 class="abus">About Us</h3>
+  <p class="abusp">Jyoti Tent House have a complete line of quality tents and decoration. Whether you're planning a wedding, party or a corporate event,We Have The Tents and Accessories To Make Your Event Special. We also provide Rental Tents for Household Functions.We are today the Superior Quality Tents and Decorative Product.</p>
+</div>
+<div class="col-md-6">
+  <img src="logo.jpg" class="rounded">
+</div>
+</div>
+</div>
+
+<footer id="myFooter">
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-4 myCols">
+   <img src="logo.jpg" height="150px" width="300px" style="margin-top: 65px;">
+    </div>
+              
+   <div class="col-sm-4 myCols">
+    <h5 style="font-family: 'Overlock', cursive;color: #DD8871;font-size: 30px;padding-bottom: 14px;border-bottom: 3px double #da920b;">Support</h5>
+   <ul>
+    <li style="padding-bottom: 5px;font-size: 20px;"><a href="index.html">About Us</a></li>
+   <li style="padding-bottom: 5px;font-size: 20px;"><a href="contact.html">Contact Us</a></li>
+   <li style="padding-bottom: 5px;font-size: 20px;position:relative;z-index: 2;cursor: pointer;"><a data-toggle="popover" title="Abdul Wahab" data-content="No-9214076861">Contact Number</a></li>
+    
+    <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover()
+            })
+        </script>
+</ul>
+</div>
+
+
+ <div class="col-sm-4 myCols">
+  <h5 style="font-family: 'Overlock', cursive;color:#DD8871;font-size: 30px;padding-bottom: 14px;border-bottom: 3px double #da920b;">Links</h5>
+   <ul>
+  <li style="padding-bottom: 5px;font-size: 20px;"><a href="gallery.html" >Our Gallery</a></li>
+  <li style="padding-bottom: 5px;font-size: 20px;"><a href="service.html">Our Services</a></li>
+ <li style="padding-bottom: 5px;font-size: 20px;position:relative;z-index: 999;cursor: pointer;"><a data-toggle="popover" title="Address" data-content="Jyoti Tent House,Satti Chabutra,Makbara Bazaar,Kota" >Address</a></li>
+          <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover()
+            })
+        </script>
+    </ul>
+  </div>
+ </div>
+ </div>
+   <div class="social-networks">
+   <a href="https://www.linkedin.com/in/abdul-wahab-hakimi-5ba79b101/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+   <a href="https://www.facebook.com/jyotent/" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://plus.google.com/u/0/112259162509408848835" class="google"><i class="fa fa-google-plus"></i></a>
+    </div>
+   <div class="container">
+  <div class="footer-copyright">
+  <p class="col-xl-12">© 2018 All Copyright Reserved </p>
+  <p class="col-xl-12">Developed and Designed by Nurul Hassan </p>
+ </div>
+ <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+ <script type="text/javascript">
+   
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        
+        $('#return-to-top').fadeIn(200);    
+    } else {
+        $('#return-to-top').fadeOut(200);   
+    }
+});
+$('#return-to-top').click(function() {      
+    $('body,html').animate({
+        scrollTop : 0                       
+    }, 500);
+});
+ </script>
+  </div>
+
+ </footer>
+  
+</body>
+</html>
