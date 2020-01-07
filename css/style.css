@@ -145,7 +145,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 100000;
-    background-color: #1a0030;
+    background-color: #000000;
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -ms-transition:all 0.3s linear;
