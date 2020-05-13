@@ -90,6 +90,7 @@ section {
     margin: 0;
     position: absolute;
     left: 0;
+    background:url(../photo/parallax3.jpg);
     top: 0;
     background-attachment: fixed!important;
     background-size: cover!important;
@@ -3038,7 +3039,7 @@ blockquote:before {
     top: 0;
 }
 .event-info {
-    background:url("../photo/parallax9.jpg") repeat fixed 0 0 rgba(0, 0, 0, 0);
+    background:url(../photo/parallax9.jpg) repeat fixed 0 0 rgba(0, 0, 0, 0);
     display:table;
     margin:0 auto 50px;
     position:relative;
