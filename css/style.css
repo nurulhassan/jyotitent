@@ -2126,7 +2126,7 @@ footer .widget ul li {
     width: 190px;
 }
 .full-service-carousel .owl-nav > div {
-    background: url("../photo/arrows.png") no-repeat scroll 30px center transparent;
+    background: url(../photo/arrows.png) no-repeat scroll 30px center transparent;
     color: transparent;
     float: left;
     margin-left: 2%;
@@ -4386,7 +4386,7 @@ div.ppt {
 
 
             .our-story {
-                background: rgba(0, 0, 0, 0) url("../photo/story-bg.png") no-repeat scroll center center;
+                background: rgba(0, 0, 0, 0) url(../photo/story-bg.png) no-repeat scroll center center;
                 float: left;
                 text-align: center;
                 width: 100%;
