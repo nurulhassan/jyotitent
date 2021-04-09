@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 User-agent:*
 Disallow: /cgi-bin/
 Disallow: /images/
+=======
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /images/
+>>>>>>> 3140a11324f63d1fe51fdafd47e95d2a91e6cbc7
 Disallow: /pages/thankyou.html
